@@ -3,15 +3,20 @@
       <div>
           <circleLoading></circleLoading>
       </div>
+      <div>
+          <bubbleLoading></bubbleLoading>
+      </div>
   </div>
 </template>
 
 <script>
 import circleLoading from '../components/circleLoading'
+import bubbleLoading from '../components/bubbleLoading'
 
 export default {
     components:{
-        circleLoading
+        circleLoading,
+        bubbleLoading
     }
 }
 </script>
